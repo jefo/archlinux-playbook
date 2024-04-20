@@ -1,7 +1,7 @@
 ---
 update: true
 swapfile_path: /swapfile
-swapfile_size: 8G
+swapfile_size: 16G
 
 base_packages:
   - base
@@ -68,9 +68,9 @@ other_packages:
   - stow
   - firefox
   - google-chrome
+  - vivaldi
   - obsidian
   - spotify
-  - spotify-adblock-git
   - alacritty
   - yt-dlp
   - ntfs-3g
@@ -105,3 +105,6 @@ dev_packages:
   - jre
   - jdk
   - go
+  - podman
+  - podman-compose
+  - nvim
